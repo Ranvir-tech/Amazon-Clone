@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="files/amazon.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navigation menu -->
+        <section id="navsection">
+            <!-- amazon logo -->
+            <div id="amazon-logo-div" class="navitem"><a href="index.html" id=""><img id="amazonlogo"
+                        src="images/PngItem_12080.png" alt="Amazon Logo"></a></div>
+            <div class="navitem"></div>
+            <!-- location button-->
+            <div class="navitem" id="location-button">
+                <img id="pin" src="images/icons8-location-50.png" alt="location pin logo">
+                <div id="location-button-text">
+                    <span class="DI">Deliver to</span>
+                    <span class="DI">India</span>
+                </div>
+            </div>
+            <!-- search bar -->
+            <div class="navitem" id="searchbar">
+                <div id="searchbar-filters-div"><select name="filters" id="searchbar-filters">
+                        <option value="all">all</option>
+                        <option value="gaming">gaming</option>
+                        <option value="Home appliances">Home appliances</option>
+                        <option value="watches">Watches</option>
+                        <option value="Smart phones">Smart phones</option>
+                    </select></div>
+                <div id="textarea-div"><input id="textarea" type="text" placeholder="search"></div>
+                <div id="search-button-div"><button id="search-icon-button"><img id="search-icon"
+                            src="images/icons8-search-64.png" alt="search button"></button></div>
+            </div>
+            <!-- Language selecter -->
+            <div class="navitem" id="nav-lang">
+                <img id="nav-navitem-flag" src="images/national_flag_inner.jpg" alt="Indian flag">
+                <div id="lang-div">
+                    <select name="select-language" id="lang">
+                        <option value="English">English</option>
+                        <option value="Deutsch"><a href="https://www.amazon.com/?language=de_DE">Deutsch</a></option>
+                        <option value="espanoel">French</option>
+                    </select>
+
+                </div>
+            </div>
+            <!-- login button -->
+            <div class="navitem" id="nav-div-login">
+                <div id="nav-div-login-d1">Hello,Sign in</div>
+                <div><a id="login-link" href="files/login.html">Account Login</a></div>
+            </div>
+            <div class="navitem" id="nav-navitem-orders">
+                <p id="nav-navitem-orders-p1">Returns</p>
+                <p id="nav-navitem-orders-p2">& Orders</p>
+            </div>
+            <!-- nav-navitem-cart -->
+            <div class="navitem" id="nav-navtiem-cart">
+                <div id="nav-navitem-cart-div1"><a href="files/cart.html"><img id="nav-navitem-cart-div1-cartlogo"
+                            src="images/pngwing.com.png" alt="cart button"></a></div>
+                <div id="nav-navitem-cart-div2">Cart</div>
+            </div>
+        </section>
+        <section id="navbar-extention">
+            <div id="navbar-extention-div">
+                <div class="navitem-2" id="navbar-extention-menu">
+                    <div id="navbar-extention-menu-d1"><img id="navbar-extention-menu-d1-logo" src="images/pngegg.png"
+                            alt="menu"></div>
+                    <div id="navbar-extention-menu-d2">
+                        <p id="navbar-extention-menu-d2-p1">Menu</p>
+                    </div>
+                </div>
+                <div class="navitem-2" id="navbar-extention-deals">
+                    <p id="navbar-extention-deals-p1"><a id="navbar-extention-deals-p1-link"
+                            href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">Today's
+                            Deals</a></p>
+                </div>
+                <div class="navitem-2" id="navbarextention-service">
+                    <p id="navbarextention-service-p1"><a id="navbarextention-service-p1-link"
+                            href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice">Customer
+                            Service</a> </p>
+                </div>
+                <div class="navitem-2" id="navbar-extention-Registry">
+                    <p id="navbar-extention-Registry-p1"><a id="navbar-extention-Registry-p1-link"
+                            href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry">Registry</a>
+                    </p>
+                </div>
+                <div class="navitem-2" id="navbar-extention-giftcards">
+                    <p id="navbar-extention-giftcards-p1"><a id="navbar-extention-giftcards-p1-link"
+                            href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc">Gift
+                            Cards</a> </p>
+                </div>
+                <div class="navitem-2" id="navbar-extention-sell">
+                    <p id="navbar-extention-sell-p1"><a id="navbar-extention-sell-p1-link"
+                            href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell">Sell</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- product grids -->
+        <div id="product-grids-backroundimage-gradiant">
+            <p id="product-grids-backroundimage-gradiant-p1">You are on amazon.com you can also shop on Amazon for
+                millions of products with fast local delivery. <a id="product-grids-backroundimage-gradiant-p1-link"
+                    href="https://amazon.in">Click here to go to amazon.in</a></p>
+            <section id="product-grids">
+                <div id="product-grids-1" class="product-grids-class">
+                    <p id="product-grids-1-p1">Holiday Beauty Haul</p>
+                    <div id="product-grids-1-div1">
+                        <div class="product-grids-1-divclass"><img class="product-grids-1-pic" src="images/pic1.jpg"
+                                alt="pic1">
+                            beauty haul
+                        </div>
+                        <div class="product-grids-1-divclass"><img class="product-grids-1-pic" src="images/pic2.jpg"
+                                alt="pic2">Trending now</div>
+                        <div class="product-grids-1-divclass"><img class="product-grids-1-pic" src="images/pic3.jpg"
+                                alt="pic3">Exclusive offers</div>
+                        <div class="product-grids-1-divclass"><img class="product-grids-1-pic" src="images/pic4.jpg"
+                                alt="pic4">Brand new</div>
+                    </div>
+                    <div><a id="product-grids-1-link" href="seemore">Explore more on amazon!</a></div>
+                </div>
+                <!-- second product div -->
+                <div id="product-grids-2" class="product-grids-class">
+                    <p id="product-grids-2-p1">Gaming accessories</p>
+                    <div id="product-grids-2-div1">
+                        <div class="product-grids-2-divclass"><a
+                                href="https://www.amazon.com/s?k=gaming+headsets&_encoding=UTF8&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pd_rd_r=11a1712d-e45d-4bd8-9f47-ae6681f1cdb2&pd_rd_w=ibbTW&pd_rd_wg=qzqZq&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=1MHJBVJWP98HRV7G55GS&ref=pd_hp_d_atf_unk"><img
+                                    class="product-grids-2-divclass-pic" src="images/pic5.jpg" alt="pic5"></a>Headsets
+                        </div>
+                        <div class="product-grids-2-divclass"><img class="product-grids-2-divclass-pic"
+                                src="images/pic6.jpg" alt="pic6">Keyboards</div>
+                        <div class="product-grids-2-divclass"><img class="product-grids-2-divclass-pic"
+                                src="images/pic7.jpg" alt="pic7">Mouse</div>
+                        <div class="product-grids-2-divclass"><img class="product-grids-2-divclass-pic"
+                                src="images/pic8.jpg" alt="pic8">Chairs</div>
+                    </div>
+                    <div><a id="product-grids-2-link" href="seemore.html">More on Amazon!</a></div>
+                </div>
+                <!-- third product div -->
+                <div id="product-grids-3" class="product-grids-class">
+                    <p id="product-grids-3-p1">Shop deals in Fashion</p>
+                    <div id="product-grids-3-div1">
+                        <div class="product-grids-3-divclass"><img class="product-grids-3-divclass-pic"
+                                src="images/pic9.jpg" alt="pic">Jeans under $50</div>
+                        <div class="product-grids-3-divclass"><img class="product-grids-3-divclass-pic"
+                                src="images/pic10.jpg" alt="pic">Tops under $20</div>
+                        <div class="product-grids-3-divclass"><img class="product-grids-3-divclass-pic"
+                                src="images/pic11.jpg" alt="pic">Dresses under $50</div>
+                        <div class="product-grids-3-divclass"><img class="product-grids-3-divclass-pic"
+                                src="images/pic12.jpg" alt="pic">Shoes under $50</div>
+                    </div>
+                    <div id="product-grids-3-div2"><a id="product-grids-3-div2-link" href="seemore.html">See all
+                            deals</a></div>
+                </div>
+                <!-- fourth product grid -->
+                <div id="product-grids-4" class="product-grids-class">
+                    <p id="product-grids-4-p1"> Top categories in Kitchen appliances</p>
+                    <div id="product-grids-4-div3" class="product-grids-4-divclass"><img
+                            id="product-grids-4-divclass-pic" src="images/pic13.jpg" alt="pic">Cooker</div>
+                    <div id="product-grids-4-div1">
+                        <div class="product-grids-4-div1-divclass"><img class="product-grids-4-div1-divclass-pic"
+                                src="images/pic14.jpg" alt="">Coffee</div>
+                        <div class="product-grids-4-div1-divclass"><img class="product-grids-4-div1-divclass-pic"
+                                src="images/pic15.jpg" alt="">Pots</div>
+                        <div class="product-grids-4-div1-divclass"><img class="product-grids-4-div1-divclass-pic"
+                                src="images/pic16.jpg" alt="">Kettles</div>
+                    </div>
+                    <div id="product-grids-4-div2"><a id="product-grids-4-div2-link" href="seemore.html">Explore all
+                            products in Kitchen</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- product line 2 -->
+        <section id="product-grids-line2">
+            <div id="spacer-div"></div>
+            <div id="product-grids-line2-grid1" class="product-grids-line2-grids">
+                <p id="product-grids-lin1e2-grid1-p1">Home décor under $50</p>
+                <div id="product-grids-line2-grid1-div1"><img id="product-grids-line2-grid1-div1-pic"
+                        src="images/pic17.jpg" alt="decor">
+                </div>
+                <div id="product-grids-line2-grid1-div1-linkdiv">
+                    <a id="product-grids-line2-grid1-div1-link" href="seemore.html">Explore!</a>
+                </div>
+            </div>
+            <div id="product-grids-line2-grid2" class="product-grids-line2-grids">
+                <p id="product-grids-line2-grid2-p1">Look your best this season</p>
+                <div id="product-grids-line2-grid2-div1">
+                    <div class="product-grids-line2-grid2-divclass"><img class="product-grids-line2-grid2-divclass-pics"
+                            src="images/pic18.jpg" alt="">For Her
+                    </div>
+                    <div class="product-grids-line2-grid2-divclass"><img class="product-grids-line2-grid2-divclass-pics"
+                            src="images/pic19.jpg" alt="">For Him
+                    </div>
+                    <div class="product-grids-line2-grid2-divclass"><img class="product-grids-line2-grid2-divclass-pics"
+                            src="images/pic20.jpg" alt="">For Teens
+                    </div>
+                    <div class="product-grids-line2-grid2-divclass"><img class="product-grids-line2-grid2-divclass-pics"
+                            src="images/pic21.jpg" alt="">For Kids
+                    </div>
+                </div>
+                <div id="product-grids-line2-grid2-div2"><a id="product-grids-line2-grid2-div2-link"
+                        href="seemore.html">See more</a></div>
+            </div>
+            <div id="product-grids-line2-grid3" class="product-grids-line2-grids">
+                <p id="product-grids-line2-grid3-p1">Most-loved watches</p>
+                <div id="product-grids-line2-grid3-div1">
+                    <div class="product-grids-line2-grid3-divclass"><img class="product-grids-line2-grid3-pic"
+                            src="images/pic22.jpg" alt="">Women
+                    </div>
+                    <div class="product-grids-line2-grid3-divclass"><img class="product-grids-line2-grid3-pic"
+                            src="images/pic23.jpg" alt="">Men
+                    </div>
+                    <div class="product-grids-line2-grid3-divclass"><img class="product-grids-line2-grid3-pic"
+                            src="images/pic24.jpg" alt="">Girls
+                    </div>
+                    <div class="product-grids-line2-grid3-divclass"><img class="product-grids-line2-grid3-pic"
+                            src="images/pic25.jpg" alt="">Boys
+                    </div>
+                </div>
+                <div id="product-grids-line2-grid3-div2"><a id="product-grids-line2-grid3-div2-link"
+                        href="seemore.html">Discover more</a></div>
+            </div>
+            <div id="product-grids-line2-grid4" class="product-grids-line2-grids">
+                <p id="product-grids-line2-grid4-p1">Toys under $25</p>
+                <div class="product-grids-line2-grid4-divclass"><img class="product-grids-line2-grid4-pic"
+                        src="images/pic26.jpg" alt=""></div>
+                <div id="C"><a id="product-grids-line2-grid4-link" href="seemore.html">Shop now</a></div>
+            </div>
+        </section>
+
+        <section id="product-grids-line3">
+            <div id="product-grids-line3-div1">
+                <p id="product-grids-line3-div1-p1">Popular items this season</p>
+                <div id="product-grids-line3-div1-productline">
+                    <div><!--filler div--></div>
+                    <img class="product-grids-line3-div1-productline-pics" src="images/pic27.jpg" alt="">
+                    <img class="product-grids-line3-div1-productline-pics" src="images/pic28.jpg" alt="">
+                    <img class="product-grids-line3-div1-productline-pics" src="images/pic29.jpg" alt="">
+                    <img class="product-grids-line3-div1-productline-pics" src="images/pic30.jpg" alt="">
+                    <img class="product-grids-line3-div1-productline-pics" src="images/pic31.jpg" alt="">
+                    <img class="product-grids-line3-div1-productline-pics" src="images/pic33.jpg" alt="">
+                    <div id="product-grids-line3-div1-productline-pics-special-div"><img
+                            class="product-grids-line3-div1-productline-pics-special" src="images/pic34.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="page-end-login">
+            <h2 id="page-end-login-h2">See personalized recommendations</h2>
+            </p>
+            <a id="page-end-login-button-link" href="files/login.html">Sign in</a>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <section id="back-to-top-section">
+            <div id="back-to-top-section-div"><button id="back-to-top-section-div-button">
+                    <a id="back-to-top-section-div-link" href="#navsection">back to top</button>
+            </div>
+        </section>
+        <section id="footer-">
+
+        </section>
+    </footer>
+
+</body>
+
+</html>

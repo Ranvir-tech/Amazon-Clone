@@ -1,0 +1,80 @@
+html{
+    width:1423px;
+    font-size:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+* {margin:0px;
+padding:0px;}
+/* amazon logo */
+#header-logo-section{
+    height:70px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items: center;
+    margin-top:0px;
+    
+}
+#header-logo-section-div1{
+    width:10%;
+    height:70%;
+   
+}
+#header-logo-section-div1-link{
+    width:100%;
+    height:100%;
+   
+}
+#header-logo-section-div1-link-pic{
+    width:100%;
+    height:100%;   
+}
+#main-loginform{
+    height:400px;
+    display:flex;
+    flex-flow:column wrap;
+    align-items: center;
+}
+#main-loginform-maindiv{
+    border:1px solid black;
+    border-radius:3%;
+    height:95%;
+    width:30%;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-between;
+    padding:30px;
+}
+#main-loginform-maindiv-p1{
+    font-size:2.5rem;
+    font-weight:540;
+}
+#main-loginform-maindiv-p2{
+    font-size:1.5rem;
+}
+#main-loginform-maindiv-div1-form{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content: space-around;
+    margin:10px;
+    height:200px;
+}
+#main-loginform-maindiv-div1-form-div1{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:flex-start;
+}
+#login-form-input-id{
+    width:100%;
+    height:40px;
+}
+#login-form-input-id-sumbit{
+    background-color:#fed917;
+    width:80%;
+    height:40px;
+    border:none;
+}
+#login-form-input-id:active{
+    border: 5px solid #36838f;    
+}
