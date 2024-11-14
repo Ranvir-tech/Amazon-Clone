@@ -3,7 +3,9 @@ html {
     font-size: 16px;
     width: 1423px;
 }
-
+@media screen and (max-width:1080px){
+    html{width:1080px;
+    font-size:12px}
 
 * {
     margin: 0px;
