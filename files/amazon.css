@@ -1,7 +1,7 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    width: 1423px;
+    width: auto;
 }
 @media screen and (max-width:1080px){
     html{width:1080px;
